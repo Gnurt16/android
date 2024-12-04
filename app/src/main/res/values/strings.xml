@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BTL</string>
+    <string name="product_1">Mô tả sản phẩm 1</string>
+    <string name="product_2">Mô tả sản phẩm 2</string>
+    <string name="product_3">Mô tả sản phẩm 3</string>
+    <string name="product_4">Mô tả sản phẩm 4</string>
+    <string name="product_5">Mô tả sản phẩm 5</string>
+    <string name="product_6">Mô tả sản phẩm 6</string>
+    <string name="product_7">Mô tả sản phẩm 7</string>
+    <string name="product_8">Mô tả sản phẩm 8</string>
+    <string name="product_9">Mô tả sản phẩm 9</string>
+    <string name="product_10">Mô tả sản phẩm 10</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

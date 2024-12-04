@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Include header_layout trong HomeFragment -->
+    <include
+        layout="@layout/header_layout"
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Danh mục sản phẩm trong HomeFragment -->
+
+
+    <!-- RecyclerView cho danh sách sản phẩm nằm dưới product_category -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header_layout"
+        android:padding="8dp" />
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hình ảnh sản phẩm -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:scaleType="fitCenter"
+            android:contentDescription="Product Image"
+            android:src="@drawable/product_image1" />
+
+        <!-- Tên sản phẩm -->
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sản phẩm"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingTop="16dp" />
+
+        <!-- Giá sản phẩm -->
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá: 34.990.000đ"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Thông số kỹ thuật -->
+        <TextView
+            android:id="@+id/specificationsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông số kỹ thuật"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/productSpecifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Màn hình: 6.1 inch Super Retina XDR\n• Camera: 12MP\n• Pin: 2815 mAh\n• CPU: Apple A14 Bionic"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Mô tả sản phẩm -->
+        <TextView
+            android:id="@+id/productDescriptionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mô tả sản phẩm"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/productDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đây là một sản phẩm chất lượng cao với nhiều tính năng nổi bật. Sản phẩm có thiết kế đẹp, hiệu năng mạnh mẽ và khả năng xử lý nhanh chóng."
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Nút Thêm vào giỏ hàng -->
+        <Button
+            android:id="@+id/addToCartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="Thêm vào giỏ hàng"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

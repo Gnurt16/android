@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#DC0D0D"
+    android:gravity="center_vertical">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:src="@drawable/logo" />
+
+    <!-- Thanh tìm kiếm -->
+    <AutoCompleteTextView
+        android:id="@+id/search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/search_bar"
+        android:hint="Tìm kiếm sản phẩm"
+        android:padding="12dp"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+        android:minHeight="50dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+    <!-- Giỏ hàng -->
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/baseline_shopping_cart_24"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Giỏ hàng" /> <!-- Thêm mô tả cho accessibility -->
+
+
+</LinearLayout>

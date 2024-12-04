@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/category_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh mục sản phẩm"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:columnCount="2">
+
+        <!-- Sản phẩm 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="134dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_1"
+                android:src="@drawable/iphone" />
+
+            <TextView
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" Apple" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="131dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_2"
+                android:src="@drawable/samsung" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SamSung" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 3 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_3"
+                android:src="@drawable/oppo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Oppo " />
+        </LinearLayout>
+
+        <!-- Sản phẩm 4 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="132dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_4"
+                android:src="@drawable/xiaomi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Xiaomi" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 5 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="127dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_5"
+                android:src="@drawable/sony" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sony" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 6 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="124dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_6"
+                android:src="@drawable/nokia" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nokia" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 7 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="122dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_7"
+                android:src="@drawable/tecno" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tecno" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 8 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="122dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_8"
+                android:src="@drawable/one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="OnePlus" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 9 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="133dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_9"
+                android:src="@drawable/itel" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Itel" />
+        </LinearLayout>
+
+        <!-- Sản phẩm 10 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/product_10"
+                android:src="@drawable/asus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Asus" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
